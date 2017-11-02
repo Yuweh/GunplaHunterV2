@@ -36,6 +36,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     @IBAction func resetButtonWasPressed(_ sender: UIButton) {
     labelTEXT.text = "Default Text"
     textField.text = ""
+    print("reset button was pressed")
     }
     
     @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
@@ -51,6 +52,8 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         // Make sure ViewController is notified when the user picks an image.
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
+        
+        print("select Image was pressed")
     }
     
     
