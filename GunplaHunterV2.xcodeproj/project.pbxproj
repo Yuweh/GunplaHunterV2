@@ -14,6 +14,7 @@
 		900DC60E1FA9C4B3004235BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900DC60D1FA9C4B3004235BC /* Assets.xcassets */; };
 		900DC6111FA9C4B3004235BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900DC60F1FA9C4B3004235BC /* LaunchScreen.storyboard */; };
 		900DC61C1FA9C4B3004235BC /* GunplaHunterV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DC61B1FA9C4B3004235BC /* GunplaHunterV2Tests.swift */; };
+		900DC6291FAA187A004235BC /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DC6281FAA187A004235BC /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		900DC6171FA9C4B3004235BC /* GunplaHunterV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunplaHunterV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		900DC61B1FA9C4B3004235BC /* GunplaHunterV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunplaHunterV2Tests.swift; sourceTree = "<group>"; };
 		900DC61D1FA9C4B3004235BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900DC6281FAA187A004235BC /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				900DC6031FA9C4B3004235BC /* AppDelegate.swift */,
+				900DC6281FAA187A004235BC /* MenuVC.swift */,
 				900DC6051FA9C4B3004235BC /* ViewController.swift */,
 				900DC6071FA9C4B3004235BC /* Main.storyboard */,
 				900DC60D1FA9C4B3004235BC /* Assets.xcassets */,
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				900DC6061FA9C4B3004235BC /* ViewController.swift in Sources */,
+				900DC6291FAA187A004235BC /* MenuVC.swift in Sources */,
 				900DC60C1FA9C4B3004235BC /* GunplaHunterV2.xcdatamodeld in Sources */,
 				900DC6041FA9C4B3004235BC /* AppDelegate.swift in Sources */,
 			);
