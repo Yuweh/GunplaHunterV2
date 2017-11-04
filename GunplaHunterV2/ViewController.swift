@@ -83,6 +83,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextFieldDidEndEditingReason) {
         labelTEXT.text = textField.text
         list.append(textField.text!)
+        print("Did End Editing")
     }
     
 }
